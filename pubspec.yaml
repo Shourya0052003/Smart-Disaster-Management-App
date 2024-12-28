@@ -1,0 +1,26 @@
+name: smart_disaster_app
+description: A Smart Disaster Management app.
+publish_to: 'none' # Remove this line if you want to publish to pub.dev.
+
+version: 1.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^latest_version
+  firebase_auth: ^latest_version
+  cloud_firestore: ^latest_version
+  firebase_messaging: ^latest_version
+  sqflite: ^latest_version
+  path_provider: ^latest_version
+  http: ^latest_version
+  geolocator: ^latest_version
+  provider: ^latest_version
+  intl: ^latest_version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
